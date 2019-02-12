@@ -40,11 +40,9 @@ function playSoundSpace() {
 
 function playSound() {
     let x = randomIntBetween(1,2);
-    if( x==1 ){
+    if( x == 1 ){
         typeSoundOne.play();
-        console.log('1');
     } else {
-        console.log('2');
         typeSoundTwo.play();
     }
 }
